@@ -1,1 +1,0 @@
-# prompt-granularity-coding-agents

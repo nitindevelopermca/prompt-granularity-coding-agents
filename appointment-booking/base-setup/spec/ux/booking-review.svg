@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1000" viewBox="0 0 1440 1000">
+<rect x="0" y="0" width="1440" height="1000" rx="0" fill="#f3f6fa"/>
+<rect x="0" y="0" width="1440" height="84" rx="0" fill="#ffffff"/>
+<text x="50" y="50.68" font-size="29" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Slotwise</text>
+<text x="340" y="49.400000000000006" font-size="20" font-family="Arial,sans-serif" font-weight="700" fill="#007f72">Services</text>
+<text x="490" y="49.400000000000006" font-size="20" font-family="Arial,sans-serif" font-weight="400" fill="#182e48">My appointments</text>
+<text x="1100" y="47.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">Alex Morgan</text>
+<text x="1270" y="47.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#182e48">Sign out</text>
+<text x="60" y="168.12" font-size="36" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Review your booking</text>
+<text x="60" y="215.24" font-size="22" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">Confirm the details before reserving your time.</text>
+<rect x="60" y="265" width="850" height="630" rx="10" fill="#ffffff"/>
+<text x="95" y="327.6" font-size="30" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Portfolio review</text>
+<text x="95" y="374.16" font-size="23" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">Jamie Lee  /  30 minutes</text>
+<text x="95" y="435.76" font-size="28" font-family="Arial,sans-serif" font-weight="700" fill="#007f72">12 Jan 2027, 14:00 UTC</text>
+<text x="95" y="501.56" font-size="18" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Notes (optional, up to 500 characters)</text>
+<rect x="95" y="514" width="780" height="110" rx="6" fill="#f0f4f8"/>
+<text x="110" y="543.48" font-size="19" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">Discuss my latest portfolio project.</text>
+<rect x="95" y="710" width="240" height="46" rx="7" fill="#007f72"/>
+<text x="111" y="738.48" font-size="19" font-family="Arial,sans-serif" font-weight="700" fill="white">Confirm booking</text>
+<rect x="355" y="710" width="220" height="46" rx="7" fill="#e9eff5"/>
+<text x="371" y="738.48" font-size="19" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Edit selection</text>
+<text x="95" y="823.4" font-size="20" font-family="Arial,sans-serif" font-weight="400" fill="#007f72">Cancel booking</text>
+<rect x="940" y="265" width="440" height="240" rx="10" fill="#ffffff"/>
+<text x="970" y="323.92" font-size="26" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">One final check</text>
+<text x="970" y="370.24" font-size="22" font-family="Arial,sans-serif" font-weight="400" fill="#182e48">Your slot is checked again</text>
+<text x="970" y="407.24" font-size="22" font-family="Arial,sans-serif" font-weight="400" fill="#182e48">when you confirm.</text>
+<text x="970" y="460.4" font-size="20" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">No payment is required.</text>
+<text x="60" y="972.72" font-size="16" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">UX reference - Slotwise - booking-review - requirements in SPEC_FREEZE.md take precedence</text>
+</svg>

@@ -1,0 +1,26 @@
+# Proposed run protocol v1.1 — public API
+
+## Freeze before collecting data
+Review UX, ten units, 25 test cases and public API and browser persistence contracts. Pilot both apps separately from the reported experiment, fix contradictions, then regenerate the checksum manifest and assign a final protocol version. Exclude pilot outcomes. Keep requirements identical across schedules for each application. The files are draft v1.1 until the researcher freezes them; no claim of experimental validation is made.
+
+## Experimental unit and schedule
+One build = one fresh starter + one app + one commercial configuration + one prompt schedule + one repeat. Use the same supplied starter dependencies and lockfile for both apps. Do not copy an implemented application. Start a new agent session for each build. Preserve that session for all phases of its schedule. P1/P3/P6/P10 count implementation messages only, followed by one identical read-only validation message. Normal tool use and agent self-correction inside a phase are allowed and must remain in the transcript. No operator coaching or manual source edits. Record a blocker or protocol deviation instead of silently rescuing a run.
+
+Predefine a randomized execution order that interleaves conditions and configurations; save its random seed and ordered run list. Record actual model ID, reasoning/speed settings, IDE/harness version, dates and starter snapshot checksum. If a provider changes a model mid-study, record and analyze the change rather than treating it as unchanged. Three repeats is a proposed starting budget, not an assurance of statistical adequacy.
+
+## Independent test evidence
+Keep evaluation/ outside the agent-visible starter. The operator starts the frontend manually and conducts browser evaluation. Agents must not launch the app, a local API, a browser preview, or any server; lint is excluded. Build/typecheck remain in the common final validation. For each case start from a clean application-specific browser store unless the case specifies a sequence. Do not clear it between a save and its refresh check. Sign in as a prerequisite. Save the source snapshot, actual validation output, browser/network evidence, and relevant storage snapshots. Redact auth tokens from shared evidence.
+
+Follow TEST_CASES.md for manual network blocking and storage-write failure checks. There is no local reset/fault endpoint. Restore request blocking/storage methods before retries and the next case. A local booking conflict is not an HTTP response. Record each case independently as pass/fail/blocked/not_run with evidence; never infer execution from another failed prerequisite. A complete build requires all 25 cases executed and passed.
+
+Public response data can change. Record request URLs, observation dates and response snapshots needed to explain the evaluation. The fixed booking catalogue/slots stay the same across runs. Do not silently substitute a new API or dataset mid-experiment. Prior local-server checks do not validate the public-API revision or generated apps.
+
+## Resource accounting
+Start agent timing after dependency installation; end after common validation completes. Include all implementation and validation turns in agent token use. Log provider-reported input/output/cached/reasoning/total token categories and the source; distinguish unavailable from zero. Do not sum overlapping categories. Record actual charges when available, wall-clock time and operator minutes separately. Keep retries, tool calls and interventions in the run log. Compare within each configuration first; pooled cross-provider token figures are descriptive unless accounting equivalence is established.
+
+## Page audits and bundles
+Use identical frozen Chrome/Lighthouse versions, device emulation, viewport, throttle, cache policy and invocation for all builds. Record the exact command/settings in the study record before runs. Collect three audits per designated page and report their median, retaining all reports. Login is logged out; protected pages use the seeded signed-in state. Reset the app-specific browser store before audits and use the documented initial state. If the intended page cannot be audited, keep the result missing with a reason; never replace with zero. Preserve the fixed booking seed and the observed public response data used by each build.
+Build once after evaluation changes (if any permitted changes exist, record them). Sum gzip bytes for every emitted .js file under dist/assets, each compressed separately at level 9, and divide by 1000 for kB. Record both raw bytes and kB plus file list; this new explicit rule may differ from historical measurement.
+
+## Analysis and claims
+Compare schedules within each application/configuration and report variability, complete-build counts and failures. Predefine the primary comparison and analysis before collecting data; choose repetition count based on precision/power and resources. Separate task grouping effects with a future independently varied grouping factor if claiming a prompt-count effect. Do not infer that P3 must win, impose a post-hoc weighted overall score or equate ten tasks across applications with equal difficulty. Provide the replication package and exact version alongside any paper.

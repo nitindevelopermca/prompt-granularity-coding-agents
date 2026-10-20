@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1000" viewBox="0 0 1440 1000">
+<rect x="0" y="0" width="1440" height="1000" rx="0" fill="#f3f6fa"/>
+<text x="70" y="87.28" font-size="34" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Trackline</text>
+<text x="70" y="130.24" font-size="22" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">A focused issue tracker for a small product team.</text>
+<rect x="420" y="220" width="600" height="610" rx="10" fill="#ffffff"/>
+<text x="460" y="291.28" font-size="34" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Welcome back</text>
+<text x="460" y="334.32" font-size="21" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">Sign in to continue to your workspace.</text>
+<text x="460" y="396.56" font-size="18" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Username</text>
+<rect x="460" y="409" width="520" height="48" rx="6" fill="#f0f4f8"/>
+<text x="475" y="438.48" font-size="19" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">researcher</text>
+<text x="460" y="504.56" font-size="18" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Password</text>
+<rect x="460" y="517" width="520" height="48" rx="6" fill="#f0f4f8"/>
+<text x="475" y="546.48" font-size="19" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">********   Show</text>
+<rect x="460" y="610" width="520" height="46" rx="7" fill="#007f72"/>
+<text x="476" y="638.48" font-size="19" font-family="Arial,sans-serif" font-weight="700" fill="white">Sign in</text>
+<text x="460" y="706.56" font-size="18" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Demo account</text>
+<text x="460" y="740.4" font-size="20" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">researcher / Demo123!</text>
+<text x="60" y="972.72" font-size="16" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">UX reference - Trackline - login - requirements in SPEC_FREEZE.md take precedence</text>
+</svg>

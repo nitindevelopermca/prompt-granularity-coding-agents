@@ -1,0 +1,131 @@
+{
+  "issues": [
+    {
+      "id": 1,
+      "title": "Checkout button does not respond",
+      "description": "Reproduce the reported problem: checkout button does not respond. Verify the expected behavior after a focused correction.",
+      "priority": "High",
+      "status": "Open",
+      "assignee": null,
+      "comments": [
+        {
+          "id": 1,
+          "author": "Jamie Lee",
+          "body": "I can reproduce this in the demo environment.",
+          "createdAt": "2027-01-11T09:00:00Z"
+        }
+      ],
+      "updatedAt": "2027-01-11T09:00:00Z"
+    },
+    {
+      "id": 2,
+      "title": "Profile image looks stretched",
+      "description": "Reproduce the reported problem: profile image looks stretched. Verify the expected behavior after a focused correction.",
+      "priority": "Medium",
+      "status": "In progress",
+      "assignee": "Jamie Lee",
+      "comments": [],
+      "updatedAt": "2027-01-11T09:00:00Z"
+    },
+    {
+      "id": 3,
+      "title": "Search returns duplicate results",
+      "description": "Reproduce the reported problem: search returns duplicate results. Verify the expected behavior after a focused correction.",
+      "priority": "Low",
+      "status": "Open",
+      "assignee": null,
+      "comments": [],
+      "updatedAt": "2027-01-11T09:00:00Z"
+    },
+    {
+      "id": 4,
+      "title": "Export button has no label",
+      "description": "Reproduce the reported problem: export button has no label. Verify the expected behavior after a focused correction.",
+      "priority": "High",
+      "status": "Open",
+      "assignee": "Jamie Lee",
+      "comments": [],
+      "updatedAt": "2027-01-11T09:00:00Z"
+    },
+    {
+      "id": 5,
+      "title": "Mobile menu overlaps content",
+      "description": "Reproduce the reported problem: mobile menu overlaps content. Verify the expected behavior after a focused correction.",
+      "priority": "Medium",
+      "status": "In progress",
+      "assignee": null,
+      "comments": [],
+      "updatedAt": "2027-01-11T09:00:00Z"
+    },
+    {
+      "id": 6,
+      "title": "Password field loses focus",
+      "description": "Reproduce the reported problem: password field loses focus. Verify the expected behavior after a focused correction.",
+      "priority": "Low",
+      "status": "Open",
+      "assignee": "Jamie Lee",
+      "comments": [],
+      "updatedAt": "2027-01-11T09:00:00Z"
+    },
+    {
+      "id": 7,
+      "title": "Settings page shows stale data",
+      "description": "Reproduce the reported problem: settings page shows stale data. Verify the expected behavior after a focused correction.",
+      "priority": "High",
+      "status": "Open",
+      "assignee": null,
+      "comments": [],
+      "updatedAt": "2027-01-11T09:00:00Z"
+    },
+    {
+      "id": 8,
+      "title": "Dashboard chart has low contrast",
+      "description": "Reproduce the reported problem: dashboard chart has low contrast. Verify the expected behavior after a focused correction.",
+      "priority": "Medium",
+      "status": "In progress",
+      "assignee": "Jamie Lee",
+      "comments": [],
+      "updatedAt": "2027-01-11T09:00:00Z"
+    },
+    {
+      "id": 9,
+      "title": "Upload progress stops early",
+      "description": "Reproduce the reported problem: upload progress stops early. Verify the expected behavior after a focused correction.",
+      "priority": "Low",
+      "status": "Open",
+      "assignee": null,
+      "comments": [],
+      "updatedAt": "2027-01-11T09:00:00Z"
+    },
+    {
+      "id": 10,
+      "title": "Notification badge is incorrect",
+      "description": "Reproduce the reported problem: notification badge is incorrect. Verify the expected behavior after a focused correction.",
+      "priority": "High",
+      "status": "Open",
+      "assignee": "Jamie Lee",
+      "comments": [],
+      "updatedAt": "2027-01-11T09:00:00Z"
+    },
+    {
+      "id": 11,
+      "title": "Keyboard navigation skips action",
+      "description": "Reproduce the reported problem: keyboard navigation skips action. Verify the expected behavior after a focused correction.",
+      "priority": "Medium",
+      "status": "In progress",
+      "assignee": null,
+      "comments": [],
+      "updatedAt": "2027-01-11T09:00:00Z"
+    },
+    {
+      "id": 12,
+      "title": "Help link opens the wrong page",
+      "description": "Reproduce the reported problem: help link opens the wrong page. Verify the expected behavior after a focused correction.",
+      "priority": "Low",
+      "status": "Open",
+      "assignee": "Jamie Lee",
+      "comments": [],
+      "updatedAt": "2027-01-11T09:00:00Z"
+    }
+  ]
+}

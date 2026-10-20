@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1000" viewBox="0 0 1440 1000">
+<rect x="0" y="0" width="1440" height="1000" rx="0" fill="#f3f6fa"/>
+<rect x="0" y="0" width="1440" height="84" rx="0" fill="#ffffff"/>
+<text x="50" y="50.68" font-size="29" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Trackline</text>
+<text x="340" y="49.400000000000006" font-size="20" font-family="Arial,sans-serif" font-weight="700" fill="#007f72">Issues</text>
+<text x="490" y="49.400000000000006" font-size="20" font-family="Arial,sans-serif" font-weight="400" fill="#182e48">New issue</text>
+<text x="1100" y="47.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">Alex Morgan</text>
+<text x="1270" y="47.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#182e48">Sign out</text>
+<text x="60" y="133.48" font-size="19" font-family="Arial,sans-serif" font-weight="400" fill="#007f72">&lt; Back to issues</text>
+<text x="60" y="187.44" font-size="32" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">New issue</text>
+<rect x="60" y="226" width="870" height="680" rx="10" fill="#ffffff"/>
+<rect x="960" y="226" width="420" height="360" rx="10" fill="#ffffff"/>
+<text x="90" y="276.56" font-size="18" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Title (3-80 characters)</text>
+<rect x="90" y="289" width="810" height="48" rx="6" fill="#f0f4f8"/>
+<text x="105" y="318.48" font-size="19" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">Describe the issue</text>
+<text x="90" y="381.56" font-size="18" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Description (10-1000 characters)</text>
+<rect x="90" y="394" width="810" height="190" rx="6" fill="#f0f4f8"/>
+<text x="105" y="423.48" font-size="19" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">What happened? What should happen?</text>
+<text x="90" y="641.56" font-size="18" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Priority</text>
+<rect x="90" y="654" width="350" height="48" rx="6" fill="#f0f4f8"/>
+<text x="105" y="683.48" font-size="19" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">Medium</text>
+<rect x="90" y="755" width="200" height="46" rx="7" fill="#007f72"/>
+<text x="106" y="783.48" font-size="19" font-family="Arial,sans-serif" font-weight="700" fill="white">Create issue</text>
+<rect x="310" y="755" width="150" height="46" rx="7" fill="#e9eff5"/>
+<text x="326" y="783.48" font-size="19" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Cancel</text>
+<text x="990" y="286.16" font-size="23" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Before you submit</text>
+<text x="990" y="330.4" font-size="20" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">New issues start Open.</text>
+<text x="990" y="368.4" font-size="20" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">Assignment starts Unassigned.</text>
+<text x="60" y="972.72" font-size="16" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">UX reference - Trackline - create-issue - requirements in SPEC_FREEZE.md take precedence</text>
+</svg>

@@ -1,0 +1,280 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "title": "Portfolio review",
+      "durationMinutes": 30,
+      "description": "A focused portfolio review session with practical feedback and clear next steps.",
+      "providerId": 1
+    },
+    {
+      "id": 2,
+      "title": "Interview coaching",
+      "durationMinutes": 60,
+      "description": "A focused interview coaching session with practical feedback and clear next steps.",
+      "providerId": 2
+    },
+    {
+      "id": 3,
+      "title": "Resume review",
+      "durationMinutes": 30,
+      "description": "A focused resume review session with practical feedback and clear next steps.",
+      "providerId": 3
+    },
+    {
+      "id": 4,
+      "title": "Presentation coaching",
+      "durationMinutes": 60,
+      "description": "A focused presentation coaching session with practical feedback and clear next steps.",
+      "providerId": 4
+    },
+    {
+      "id": 5,
+      "title": "Career planning",
+      "durationMinutes": 30,
+      "description": "A focused career planning session with practical feedback and clear next steps.",
+      "providerId": 5
+    },
+    {
+      "id": 6,
+      "title": "Design critique",
+      "durationMinutes": 60,
+      "description": "A focused design critique session with practical feedback and clear next steps.",
+      "providerId": 6
+    },
+    {
+      "id": 7,
+      "title": "Writing feedback",
+      "durationMinutes": 30,
+      "description": "A focused writing feedback session with practical feedback and clear next steps.",
+      "providerId": 7
+    },
+    {
+      "id": 8,
+      "title": "Leadership coaching",
+      "durationMinutes": 60,
+      "description": "A focused leadership coaching session with practical feedback and clear next steps.",
+      "providerId": 8
+    },
+    {
+      "id": 9,
+      "title": "Public speaking practice",
+      "durationMinutes": 30,
+      "description": "A focused public speaking practice session with practical feedback and clear next steps.",
+      "providerId": 9
+    },
+    {
+      "id": 10,
+      "title": "Project planning",
+      "durationMinutes": 60,
+      "description": "A focused project planning session with practical feedback and clear next steps.",
+      "providerId": 10
+    },
+    {
+      "id": 11,
+      "title": "Study planning",
+      "durationMinutes": 30,
+      "description": "A focused study planning session with practical feedback and clear next steps.",
+      "providerId": 11
+    },
+    {
+      "id": 12,
+      "title": "Technical interview practice",
+      "durationMinutes": 60,
+      "description": "A focused technical interview practice session with practical feedback and clear next steps.",
+      "providerId": 12
+    }
+  ],
+  "slots": [
+    {
+      "id": 101,
+      "serviceId": 1,
+      "startUtc": "2027-01-12T10:00:00Z"
+    },
+    {
+      "id": 102,
+      "serviceId": 1,
+      "startUtc": "2027-01-12T14:00:00Z"
+    },
+    {
+      "id": 103,
+      "serviceId": 1,
+      "startUtc": "2027-01-13T10:00:00Z"
+    },
+    {
+      "id": 201,
+      "serviceId": 2,
+      "startUtc": "2027-01-12T10:00:00Z"
+    },
+    {
+      "id": 202,
+      "serviceId": 2,
+      "startUtc": "2027-01-12T14:00:00Z"
+    },
+    {
+      "id": 203,
+      "serviceId": 2,
+      "startUtc": "2027-01-13T10:00:00Z"
+    },
+    {
+      "id": 301,
+      "serviceId": 3,
+      "startUtc": "2027-01-12T10:00:00Z"
+    },
+    {
+      "id": 302,
+      "serviceId": 3,
+      "startUtc": "2027-01-12T14:00:00Z"
+    },
+    {
+      "id": 303,
+      "serviceId": 3,
+      "startUtc": "2027-01-13T10:00:00Z"
+    },
+    {
+      "id": 401,
+      "serviceId": 4,
+      "startUtc": "2027-01-12T10:00:00Z"
+    },
+    {
+      "id": 402,
+      "serviceId": 4,
+      "startUtc": "2027-01-12T14:00:00Z"
+    },
+    {
+      "id": 403,
+      "serviceId": 4,
+      "startUtc": "2027-01-13T10:00:00Z"
+    },
+    {
+      "id": 501,
+      "serviceId": 5,
+      "startUtc": "2027-01-12T10:00:00Z"
+    },
+    {
+      "id": 502,
+      "serviceId": 5,
+      "startUtc": "2027-01-12T14:00:00Z"
+    },
+    {
+      "id": 503,
+      "serviceId": 5,
+      "startUtc": "2027-01-13T10:00:00Z"
+    },
+    {
+      "id": 601,
+      "serviceId": 6,
+      "startUtc": "2027-01-12T10:00:00Z"
+    },
+    {
+      "id": 602,
+      "serviceId": 6,
+      "startUtc": "2027-01-12T14:00:00Z"
+    },
+    {
+      "id": 603,
+      "serviceId": 6,
+      "startUtc": "2027-01-13T10:00:00Z"
+    },
+    {
+      "id": 701,
+      "serviceId": 7,
+      "startUtc": "2027-01-12T10:00:00Z"
+    },
+    {
+      "id": 702,
+      "serviceId": 7,
+      "startUtc": "2027-01-12T14:00:00Z"
+    },
+    {
+      "id": 703,
+      "serviceId": 7,
+      "startUtc": "2027-01-13T10:00:00Z"
+    },
+    {
+      "id": 801,
+      "serviceId": 8,
+      "startUtc": "2027-01-12T10:00:00Z"
+    },
+    {
+      "id": 802,
+      "serviceId": 8,
+      "startUtc": "2027-01-12T14:00:00Z"
+    },
+    {
+      "id": 803,
+      "serviceId": 8,
+      "startUtc": "2027-01-13T10:00:00Z"
+    },
+    {
+      "id": 901,
+      "serviceId": 9,
+      "startUtc": "2027-01-12T10:00:00Z"
+    },
+    {
+      "id": 902,
+      "serviceId": 9,
+      "startUtc": "2027-01-12T14:00:00Z"
+    },
+    {
+      "id": 903,
+      "serviceId": 9,
+      "startUtc": "2027-01-13T10:00:00Z"
+    },
+    {
+      "id": 1001,
+      "serviceId": 10,
+      "startUtc": "2027-01-12T10:00:00Z"
+    },
+    {
+      "id": 1002,
+      "serviceId": 10,
+      "startUtc": "2027-01-12T14:00:00Z"
+    },
+    {
+      "id": 1003,
+      "serviceId": 10,
+      "startUtc": "2027-01-13T10:00:00Z"
+    },
+    {
+      "id": 1101,
+      "serviceId": 11,
+      "startUtc": "2027-01-12T10:00:00Z"
+    },
+    {
+      "id": 1102,
+      "serviceId": 11,
+      "startUtc": "2027-01-12T14:00:00Z"
+    },
+    {
+      "id": 1103,
+      "serviceId": 11,
+      "startUtc": "2027-01-13T10:00:00Z"
+    },
+    {
+      "id": 1201,
+      "serviceId": 12,
+      "startUtc": "2027-01-12T10:00:00Z"
+    },
+    {
+      "id": 1202,
+      "serviceId": 12,
+      "startUtc": "2027-01-12T14:00:00Z"
+    },
+    {
+      "id": 1203,
+      "serviceId": 12,
+      "startUtc": "2027-01-13T10:00:00Z"
+    }
+  ],
+  "appointments": [
+    {
+      "id": 1,
+      "serviceId": 1,
+      "slotId": 101,
+      "notes": "Portfolio discussion",
+      "status": "Confirmed",
+      "createdAt": "2027-01-11T09:00:00Z"
+    }
+  ]
+}

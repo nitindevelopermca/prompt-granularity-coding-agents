@@ -1,0 +1,23 @@
+This is implementation phase 3 of 6 for Trackline (P6), public API protocol v1.1.
+
+The working folder is already a Vite + React + TypeScript starter. Do not replace the toolchain or re-scaffold.
+Read spec/SPEC_FREEZE.md, spec/WORK_UNITS.md, spec/apis_contract/API_CONTRACT.md and spec/ux/README.md in the first phase. Consult them again only as needed for accuracy. Preserve completed behavior in later phases.
+Use https://dummyjson.com and the contract-defined browser persistence. No local API is running or needed. Implement only the assigned work units. Modify application source only; do not modify specifications, fixtures, prompts, package files or evaluation files.
+
+The operator installs dependencies and starts/stops the application manually. Do not run npm run dev, npm start, npm run preview, a local API/backend, a browser preview, or any background server. Do not run lint, ESLint, npm run lint, or install lint tools. Keep dev/preview scripts available for the operator. No automatic startup hooks. No new dependencies or changes to package.json/package-lock.json. The common final validation permits build and typecheck only. Do not explore Git repositories, Git metadata, remotes, or history without the operator's explicit authorization.
+
+Shared acceptance requirement: Retain authentication and the exact current pathname and query string after browser refresh. Do not send an authenticated user back to the home/list page on reload. Read stored session state before route guards decide where to navigate; show a restoring state while validating it. Retain search query parameters. Restore booking review with the same service, slot and notes. A signed-out direct protected URL redirects to login; signing out clears the session and booking draft. Saved domain records are scoped to application and user and remain available on signing back in. A temporary network failure must not erase a stored session or silently reset the route.
+
+## Work unit 4 - Issue rows and visual hierarchy
+
+Render the issue ID, title, status, priority, assignee (Unassigned when null) and updated date for each loaded record. Use readable text badges, not color alone. Show a clear Open issue action targeting /issues/:id. Use the supplied list UX, with stacked cards below 768 px and no horizontal page overflow at 390 px. The detail destination may remain a placeholder until work unit 6.
+
+Apply the shared accessibility, error handling, persistence and scope rules to this work unit. Implement only assigned units; preserve completed behavior.
+
+## Work unit 5 - Issue search
+
+Submit remote search through GET https://dummyjson.com/posts/search?q={encodedQuery}&limit=6&skip=0; combine it with matching locally created issues as specified in the contract. Trim the query; keep it in the URL. Paginate search with the same query. Show a no-results state and keep the current list on search failure. Clearing search restores the previously loaded unfiltered list and its pagination state within the session; refresh may reload that list from its first page. Ignore stale responses so older searches cannot replace newer results.
+
+Apply the shared accessibility, error handling, persistence and scope rules to this work unit. Implement only assigned units; preserve completed behavior.
+
+Stop after these units. Report implemented units and unresolved blockers. Do not invent test results. The operator will send the same final validation message after the last phase.

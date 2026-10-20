@@ -1,0 +1,61 @@
+# Canonical work units
+
+## Work unit 1 - Login and session
+
+Implement /login with labeled username and password fields, show/hide password, and Sign in. Use POST https://dummyjson.com/auth/login and the response/session mapping in API_CONTRACT.md. Show pending, required-field, invalid-credential and network-error states. On success retain the mapped user, accessToken and refreshToken in app-scoped localStorage and navigate to /issues. Retain authentication and the exact current pathname and query string after browser refresh. Do not send an authenticated user back to the home/list page on reload. Read stored session state before route guards decide where to navigate; show a restoring state while validating it. Retain search query parameters. Restore booking review with the same service, slot and notes. A signed-out direct protected URL redirects to login; signing out clears the session and booking draft. Saved domain records are scoped to application and user and remain available on signing back in. A temporary network failure must not erase a stored session or silently reset the route. A direct protected URL without a session must redirect to /login. Do not add signup or password recovery.
+
+Apply the shared accessibility, error handling, persistence and scope rules to this work unit. Implement only assigned units; preserve completed behavior.
+
+## Work unit 2 - Authenticated application shell
+
+Create the shared Trackline header, Issues and New issue navigation, signed-in user name and Sign out. Sign out clears the session, returns to /login and protects all application routes. Add route handling, document title, meta description, semantic landmarks and visible focus. Issue list, detail and creation destinations may be placeholders until their work units are assigned.
+
+Apply the shared accessibility, error handling, persistence and scope rules to this work unit. Implement only assigned units; preserve completed behavior.
+
+## Work unit 3 - Paginated issue loading
+
+At /issues fetch GET https://dummyjson.com/posts?limit=6&skip=0 and map posts to issues using API_CONTRACT.md. Render the returned count and a Load more control that requests the next six records and appends without duplicates. Use the API-reported remote total and merge persisted locally created issues as specified in the contract; do not assume 12 records. Show loading, empty, retry and end-of-list states. On a failed load-more request retain already displayed records. No prefetching the entire collection.
+
+Apply the shared accessibility, error handling, persistence and scope rules to this work unit. Implement only assigned units; preserve completed behavior.
+
+## Work unit 4 - Issue rows and visual hierarchy
+
+Render the issue ID, title, status, priority, assignee (Unassigned when null) and updated date for each loaded record. Use readable text badges, not color alone. Show a clear Open issue action targeting /issues/:id. Use the supplied list UX, with stacked cards below 768 px and no horizontal page overflow at 390 px. The detail destination may remain a placeholder until work unit 6.
+
+Apply the shared accessibility, error handling, persistence and scope rules to this work unit. Implement only assigned units; preserve completed behavior.
+
+## Work unit 5 - Issue search
+
+Submit remote search through GET https://dummyjson.com/posts/search?q={encodedQuery}&limit=6&skip=0; combine it with matching locally created issues as specified in the contract. Trim the query; keep it in the URL. Paginate search with the same query. Show a no-results state and keep the current list on search failure. Clearing search restores the previously loaded unfiltered list and its pagination state within the session; refresh may reload that list from its first page. Ignore stale responses so older searches cannot replace newer results.
+
+Apply the shared accessibility, error handling, persistence and scope rules to this work unit. Implement only assigned units; preserve completed behavior.
+
+## Work unit 6 - Issue detail
+
+At /issues/:id load GET https://dummyjson.com/posts/:id and /posts/:id/comments for a remote ID, or the saved local issue for a local- ID, merge saved overrides, and show title, full description, status, priority, assignee and existing comments with author/date. Include Back to issues, loading, retry and not-found states. Retain the current list/search URL when navigating back. Deep linking and refreshing this detail route must work. Do not invent comments or implement comment submission until work unit 7.
+
+Apply the shared accessibility, error handling, persistence and scope rules to this work unit. Implement only assigned units; preserve completed behavior.
+
+## Work unit 7 - Comment submission
+
+Add a labeled comment textarea and Post comment action to issue detail. Trim input and require 1-500 characters. For remote issues POST https://dummyjson.com/comments/add with {body,postId,userId}; for locally created issues save directly to local storage. Follow the contract for unique comment IDs and merging. Append the comment only after successful acknowledgement (where applicable) and local persistence, clear input on success, and keep the draft and previous comments on failure. Disable submission while pending to prevent duplicate clicks. Comments must remain after refresh through app/user-scoped browser persistence; DummyJSON does not persist them.
+
+Apply the shared accessibility, error handling, persistence and scope rules to this work unit. Implement only assigned units; preserve completed behavior.
+
+## Work unit 8 - Create issue
+
+At /issues/new implement title (trimmed 3-80 characters), description (trimmed 10-1000 characters) and required priority (Low, Medium, High; default Medium). POST https://dummyjson.com/posts/add with {title,body:description,userId}; persist all issue fields under a unique local ID only after acknowledgement, according to API_CONTRACT.md. Show field errors, pending and failure states; keep entered values on failure. Disable repeated submission while pending. After success navigate to the newly persisted local issue detail and announce creation. A Cancel action returns to Issues without creating a record. New issues start Open and Unassigned.
+
+Apply the shared accessibility, error handling, persistence and scope rules to this work unit. Implement only assigned units; preserve completed behavior.
+
+## Work unit 9 - Update issue attributes
+
+On issue detail allow priority changes, assignment to Unassigned, Alex Morgan or Jamie Lee, and the transition Open to In progress. Save explicitly using the remote PATCH acknowledgement and local override rules in API_CONTRACT.md, or a local-only save for local issues. Persist priority, assignee and/or status. Pending saves disable duplicate submission. Reflect committed browser values after success; on failure preserve the last saved view and the unsaved edits for retry. Changes persist after refresh. Do not add a Resolved dropdown option: resolution belongs to work unit 10.
+
+Apply the shared accessibility, error handling, persistence and scope rules to this work unit. Implement only assigned units; preserve completed behavior.
+
+## Work unit 10 - Resolve issue with confirmation
+
+Add Resolve issue for Open or In progress issues. Open an accessible confirmation dialog that names the issue, with Keep open and Resolve actions. Cancel makes no mutation. Confirm uses the contract-defined remote PATCH acknowledgement for a remote issue, then persists status Resolved locally; local issues use local storage only. Show Resolved and a success message only after the save succeeds. Disable or hide Resolve for resolved issues. Preserve the previous status and show retryable feedback on failure. Refresh must retain the resolved status. Do not implement reopening or deletion.
+
+Apply the shared accessibility, error handling, persistence and scope rules to this work unit. Implement only assigned units; preserve completed behavior.

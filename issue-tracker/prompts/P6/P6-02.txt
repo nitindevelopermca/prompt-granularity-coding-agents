@@ -1,0 +1,23 @@
+This is implementation phase 2 of 6 for Trackline (P6), public API protocol v1.1.
+
+The working folder is already a Vite + React + TypeScript starter. Do not replace the toolchain or re-scaffold.
+Read spec/SPEC_FREEZE.md, spec/WORK_UNITS.md, spec/apis_contract/API_CONTRACT.md and spec/ux/README.md in the first phase. Consult them again only as needed for accuracy. Preserve completed behavior in later phases.
+Use https://dummyjson.com and the contract-defined browser persistence. No local API is running or needed. Implement only the assigned work units. Modify application source only; do not modify specifications, fixtures, prompts, package files or evaluation files.
+
+The operator installs dependencies and starts/stops the application manually. Do not run npm run dev, npm start, npm run preview, a local API/backend, a browser preview, or any background server. Do not run lint, ESLint, npm run lint, or install lint tools. Keep dev/preview scripts available for the operator. No automatic startup hooks. No new dependencies or changes to package.json/package-lock.json. The common final validation permits build and typecheck only. Do not explore Git repositories, Git metadata, remotes, or history without the operator's explicit authorization.
+
+Shared acceptance requirement: Retain authentication and the exact current pathname and query string after browser refresh. Do not send an authenticated user back to the home/list page on reload. Read stored session state before route guards decide where to navigate; show a restoring state while validating it. Retain search query parameters. Restore booking review with the same service, slot and notes. A signed-out direct protected URL redirects to login; signing out clears the session and booking draft. Saved domain records are scoped to application and user and remain available on signing back in. A temporary network failure must not erase a stored session or silently reset the route.
+
+## Work unit 2 - Authenticated application shell
+
+Create the shared Trackline header, Issues and New issue navigation, signed-in user name and Sign out. Sign out clears the session, returns to /login and protects all application routes. Add route handling, document title, meta description, semantic landmarks and visible focus. Issue list, detail and creation destinations may be placeholders until their work units are assigned.
+
+Apply the shared accessibility, error handling, persistence and scope rules to this work unit. Implement only assigned units; preserve completed behavior.
+
+## Work unit 3 - Paginated issue loading
+
+At /issues fetch GET https://dummyjson.com/posts?limit=6&skip=0 and map posts to issues using API_CONTRACT.md. Render the returned count and a Load more control that requests the next six records and appends without duplicates. Use the API-reported remote total and merge persisted locally created issues as specified in the contract; do not assume 12 records. Show loading, empty, retry and end-of-list states. On a failed load-more request retain already displayed records. No prefetching the entire collection.
+
+Apply the shared accessibility, error handling, persistence and scope rules to this work unit. Implement only assigned units; preserve completed behavior.
+
+Stop after these units. Report implemented units and unresolved blockers. Do not invent test results. The operator will send the same final validation message after the last phase.

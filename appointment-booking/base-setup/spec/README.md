@@ -1,0 +1,4 @@
+# Slotwise specification — v1.1
+Read SPEC_FREEZE.md, WORK_UNITS.md, apis_contract/API_CONTRACT.md and ux/README.md. The starter is blank. The UX assets are layout references, not implemented screens.
+fixtures/seed.json supplies the fixed frontend service catalogue, slots and initial appointment. Provider names come from DummyJSON.
+The operator installs dependencies and starts/stops the application manually. Do not run npm run dev, npm start, npm run preview, a local API/backend, a browser preview, or any background server. Do not run lint, ESLint, npm run lint, or install lint tools. Keep dev/preview scripts available for the operator. No automatic startup hooks. No new dependencies or changes to package.json/package-lock.json. The common final validation permits build and typecheck only. Do not explore Git repositories, Git metadata, remotes, or history without the operator's explicit authorization.

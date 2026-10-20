@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1000" viewBox="0 0 1440 1000">
+<rect x="0" y="0" width="1440" height="1000" rx="0" fill="#f3f6fa"/>
+<rect x="0" y="0" width="1440" height="84" rx="0" fill="#ffffff"/>
+<text x="50" y="50.68" font-size="29" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Trackline</text>
+<text x="340" y="49.400000000000006" font-size="20" font-family="Arial,sans-serif" font-weight="700" fill="#007f72">Issues</text>
+<text x="490" y="49.400000000000006" font-size="20" font-family="Arial,sans-serif" font-weight="400" fill="#182e48">New issue</text>
+<text x="1100" y="47.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">Alex Morgan</text>
+<text x="1270" y="47.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#182e48">Sign out</text>
+<text x="60" y="159.12" font-size="36" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Issues</text>
+<text x="60" y="201.32" font-size="21" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">Keep the next step clear.</text>
+<text x="60" y="256.56" font-size="18" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Search issues</text>
+<rect x="60" y="269" width="1000" height="48" rx="6" fill="#f0f4f8"/>
+<text x="75" y="298.48" font-size="19" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">Search by title or description</text>
+<rect x="1090" y="269" width="130" height="46" rx="7" fill="#007f72"/>
+<text x="1106" y="297.48" font-size="19" font-family="Arial,sans-serif" font-weight="700" fill="white">Search</text>
+<text x="60" y="382.48" font-size="19" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">Showing 6 of 12 issues</text>
+<rect x="1200" y="130" width="175" height="46" rx="7" fill="#007f72"/>
+<text x="1216" y="158.48" font-size="19" font-family="Arial,sans-serif" font-weight="700" fill="white">New issue</text>
+<rect x="60" y="410" width="1320" height="58" rx="10" fill="#ffffff"/>
+<text x="80" y="444.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">#001</text>
+<text x="155" y="445.4" font-size="20" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Checkout button does not respond</text>
+<rect x="780" y="424" width="110" height="30" rx="5" fill="#e7f3ef"/>
+<text x="791" y="443.72" font-size="16" font-family="Arial,sans-serif" font-weight="700" fill="#007f72">Open</text>
+<text x="935" y="444.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#182e48">High</text>
+<text x="1040" y="444.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">Unassigned</text>
+<text x="1165" y="442.72" font-size="16" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">11 Jan</text>
+<text x="1260" y="442.72" font-size="16" font-family="Arial,sans-serif" font-weight="700" fill="#007f72">Open issue</text>
+<rect x="60" y="477" width="1320" height="58" rx="10" fill="#ffffff"/>
+<text x="80" y="511.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">#002</text>
+<text x="155" y="512.4" font-size="20" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Profile image looks stretched</text>
+<rect x="780" y="491" width="110" height="30" rx="5" fill="#e7f3ef"/>
+<text x="791" y="510.72" font-size="16" font-family="Arial,sans-serif" font-weight="700" fill="#007f72">In progress</text>
+<text x="935" y="511.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#182e48">Medium</text>
+<text x="1040" y="511.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">Jamie Lee</text>
+<text x="1165" y="509.72" font-size="16" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">11 Jan</text>
+<text x="1260" y="509.72" font-size="16" font-family="Arial,sans-serif" font-weight="700" fill="#007f72">Open issue</text>
+<rect x="60" y="544" width="1320" height="58" rx="10" fill="#ffffff"/>
+<text x="80" y="578.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">#003</text>
+<text x="155" y="579.4" font-size="20" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Search returns duplicate results</text>
+<rect x="780" y="558" width="110" height="30" rx="5" fill="#e7f3ef"/>
+<text x="791" y="577.72" font-size="16" font-family="Arial,sans-serif" font-weight="700" fill="#007f72">Open</text>
+<text x="935" y="578.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#182e48">Low</text>
+<text x="1040" y="578.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">Unassigned</text>
+<text x="1165" y="576.72" font-size="16" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">11 Jan</text>
+<text x="1260" y="576.72" font-size="16" font-family="Arial,sans-serif" font-weight="700" fill="#007f72">Open issue</text>
+<rect x="60" y="611" width="1320" height="58" rx="10" fill="#ffffff"/>
+<text x="80" y="645.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">#004</text>
+<text x="155" y="646.4" font-size="20" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Export button has no label</text>
+<rect x="780" y="625" width="110" height="30" rx="5" fill="#e7f3ef"/>
+<text x="791" y="644.72" font-size="16" font-family="Arial,sans-serif" font-weight="700" fill="#007f72">Open</text>
+<text x="935" y="645.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#182e48">High</text>
+<text x="1040" y="645.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">Jamie Lee</text>
+<text x="1165" y="643.72" font-size="16" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">11 Jan</text>
+<text x="1260" y="643.72" font-size="16" font-family="Arial,sans-serif" font-weight="700" fill="#007f72">Open issue</text>
+<rect x="60" y="678" width="1320" height="58" rx="10" fill="#ffffff"/>
+<text x="80" y="712.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">#005</text>
+<text x="155" y="713.4" font-size="20" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Mobile menu overlaps content</text>
+<rect x="780" y="692" width="110" height="30" rx="5" fill="#e7f3ef"/>
+<text x="791" y="711.72" font-size="16" font-family="Arial,sans-serif" font-weight="700" fill="#007f72">In progress</text>
+<text x="935" y="712.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#182e48">Medium</text>
+<text x="1040" y="712.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">Unassigned</text>
+<text x="1165" y="710.72" font-size="16" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">11 Jan</text>
+<text x="1260" y="710.72" font-size="16" font-family="Arial,sans-serif" font-weight="700" fill="#007f72">Open issue</text>
+<rect x="60" y="745" width="1320" height="58" rx="10" fill="#ffffff"/>
+<text x="80" y="779.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">#006</text>
+<text x="155" y="780.4" font-size="20" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Password field loses focus</text>
+<rect x="780" y="759" width="110" height="30" rx="5" fill="#e7f3ef"/>
+<text x="791" y="778.72" font-size="16" font-family="Arial,sans-serif" font-weight="700" fill="#007f72">Open</text>
+<text x="935" y="779.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#182e48">Low</text>
+<text x="1040" y="779.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">Jamie Lee</text>
+<text x="1165" y="777.72" font-size="16" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">11 Jan</text>
+<text x="1260" y="777.72" font-size="16" font-family="Arial,sans-serif" font-weight="700" fill="#007f72">Open issue</text>
+<rect x="620" y="865" width="200" height="46" rx="7" fill="#e9eff5"/>
+<text x="636" y="893.48" font-size="19" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Load more</text>
+<text x="60" y="972.72" font-size="16" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">UX reference - Trackline - issues - requirements in SPEC_FREEZE.md take precedence</text>
+</svg>

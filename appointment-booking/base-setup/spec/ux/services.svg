@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1000" viewBox="0 0 1440 1000">
+<rect x="0" y="0" width="1440" height="1000" rx="0" fill="#f3f6fa"/>
+<rect x="0" y="0" width="1440" height="84" rx="0" fill="#ffffff"/>
+<text x="50" y="50.68" font-size="29" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Slotwise</text>
+<text x="340" y="49.400000000000006" font-size="20" font-family="Arial,sans-serif" font-weight="700" fill="#007f72">Services</text>
+<text x="490" y="49.400000000000006" font-size="20" font-family="Arial,sans-serif" font-weight="400" fill="#182e48">My appointments</text>
+<text x="1100" y="47.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">Alex Morgan</text>
+<text x="1270" y="47.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#182e48">Sign out</text>
+<text x="60" y="159.12" font-size="36" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Find a coaching session</text>
+<text x="60" y="201.32" font-size="21" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">Choose a service, then find a time that works.</text>
+<text x="60" y="256.56" font-size="18" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Search services</text>
+<rect x="60" y="269" width="1000" height="48" rx="6" fill="#f0f4f8"/>
+<text x="75" y="298.48" font-size="19" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">Search by title or description</text>
+<rect x="1090" y="269" width="130" height="46" rx="7" fill="#007f72"/>
+<text x="1106" y="297.48" font-size="19" font-family="Arial,sans-serif" font-weight="700" fill="white">Search</text>
+<text x="60" y="382.48" font-size="19" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">Showing 6 of 12 services</text>
+<rect x="60" y="410" width="426" height="185" rx="10" fill="#ffffff"/>
+<text x="80" y="451.16" font-size="23" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Portfolio review</text>
+<text x="80" y="491.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">Jamie Lee  /  30 min</text>
+<text x="80" y="527.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">Practical feedback and clear next steps.</text>
+<text x="80" y="573.4" font-size="20" font-family="Arial,sans-serif" font-weight="700" fill="#007f72">View times  &gt;</text>
+<rect x="505" y="410" width="426" height="185" rx="10" fill="#ffffff"/>
+<text x="525" y="451.16" font-size="23" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Interview coaching</text>
+<text x="525" y="491.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">Alex Rivera  /  60 min</text>
+<text x="525" y="527.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">Practical feedback and clear next steps.</text>
+<text x="525" y="573.4" font-size="20" font-family="Arial,sans-serif" font-weight="700" fill="#007f72">View times  &gt;</text>
+<rect x="950" y="410" width="426" height="185" rx="10" fill="#ffffff"/>
+<text x="970" y="451.16" font-size="23" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Resume review</text>
+<text x="970" y="491.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">Jamie Lee  /  30 min</text>
+<text x="970" y="527.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">Practical feedback and clear next steps.</text>
+<text x="970" y="573.4" font-size="20" font-family="Arial,sans-serif" font-weight="700" fill="#007f72">View times  &gt;</text>
+<rect x="60" y="615" width="426" height="185" rx="10" fill="#ffffff"/>
+<text x="80" y="656.16" font-size="23" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Presentation coaching</text>
+<text x="80" y="696.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">Alex Rivera  /  60 min</text>
+<text x="80" y="732.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">Practical feedback and clear next steps.</text>
+<text x="80" y="778.4" font-size="20" font-family="Arial,sans-serif" font-weight="700" fill="#007f72">View times  &gt;</text>
+<rect x="505" y="615" width="426" height="185" rx="10" fill="#ffffff"/>
+<text x="525" y="656.16" font-size="23" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Career planning</text>
+<text x="525" y="696.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">Jamie Lee  /  30 min</text>
+<text x="525" y="732.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">Practical feedback and clear next steps.</text>
+<text x="525" y="778.4" font-size="20" font-family="Arial,sans-serif" font-weight="700" fill="#007f72">View times  &gt;</text>
+<rect x="950" y="615" width="426" height="185" rx="10" fill="#ffffff"/>
+<text x="970" y="656.16" font-size="23" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Design critique</text>
+<text x="970" y="696.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">Alex Rivera  /  60 min</text>
+<text x="970" y="732.56" font-size="18" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">Practical feedback and clear next steps.</text>
+<text x="970" y="778.4" font-size="20" font-family="Arial,sans-serif" font-weight="700" fill="#007f72">View times  &gt;</text>
+<rect x="620" y="865" width="200" height="46" rx="7" fill="#e9eff5"/>
+<text x="636" y="893.48" font-size="19" font-family="Arial,sans-serif" font-weight="700" fill="#182e48">Load more</text>
+<text x="60" y="972.72" font-size="16" font-family="Arial,sans-serif" font-weight="400" fill="#61758a">UX reference - Slotwise - services - requirements in SPEC_FREEZE.md take precedence</text>
+</svg>
